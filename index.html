@@ -1,0 +1,199 @@
+<html>
+<head>
+<title> Yara tourist company </title>
+
+
+<link rel ="stylesheet" type ="text/css"href ="new folder/stylesheet.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+  body{background-color: lightgray;}
+p    {color: black;}
+</style>
+
+
+</head>
+
+<body>
+<header>
+
+<div class="main">
+<ul>
+<li><a href = "#"> Home </a></li>
+<li><a href = "#"> About </a></li>
+<li><a href = "#"> Gallery </a></li>
+<li><a href = "#"> Contact </a></li>
+</ul> 
+<br>
+<div class="title">
+
+<h2> Siwa </h2>
+<h1> If you never go , you 'll never know. <h1>
+<div>
+</header>
+</div>
+
+<div class="bg-img">
+  <form action="/action_page.php" class="container">
+    <h1>For reservation:</h1>
+
+     <label for="txtbox"><b>Name</b></label>
+    <input type="Text" placeholder="Enter your name" name="the name" required>
+
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+
+    
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</div>
+<hr>
+
+
+
+
+
+<h4> Siwa oasis</h4>
+<p> <font face=""Times New Roman"">
+After a long drive through the barren landscape of the Western Desert, you won’t believe your eyes when you reach Siwa for the first time. <br>
+You will see a beautiful island full of mineral springs, salt lakes and endless Olive and Palm groves.
+ Finish your day by taking a dip at Cleopatra's Pool, where the legendary queen herself is believed to have once swum. <br>
+Don’t forget to buy some Siwan Crafts on your way, and visit  the charming island " Taghaghien". 
+Adventurous travelers will also get their fix of fun and excitement by heading for a safari into the great sand sea or trying out quad biking in the Western Desert of Egypt.
+ It is advisable to visit Siwa and any other Western Desert destination in the cooler months of the year, from October to April . 
+as temperatures in summer can reach  up to 35-45 C.
+</p>
+
+
+
+
+
+<br>
+
+
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 8</div>
+    <img src="yara20.jpg" style="width:100% " >
+    <div class="text"> siwa lake </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 8</div>
+    <img src="yara8.jpg" style="width:100%">
+    <div class="text"> Shali castle</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 8</div>
+    <img src="yara21.jpg" style="width:100%">
+    <div class="text"> Ancient art</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 8</div>
+    <img src="yara18.jpg" style="width:100%">
+    <div class="text"> Sky </div>
+  </div>
+
+<div class="mySlides fade">
+    <div class="numbertext">5 / 8</div>
+    <img src="yara2.jpg" style="width:100%">
+    <div class="text"> Fatnas island</div>
+  </div>
+
+<div class="mySlides fade">
+    <div class="numbertext">6 / 8</div>
+    <img src="yara177.jpg" style="width:100%">
+    <div class="text"> Siwan Crafts </div>
+  </div>
+
+<div class="mySlides fade">
+    <div class="numbertext">7 / 8</div>
+    <img src="yara5.jpg" style="width:100%">
+    <div class="text"> Salt lake </div>
+  </div>
+
+
+<div class="mySlides fade">
+    <div class="numbertext">8 / 8</div>
+    <img src="yara66.jpg" style="width:100%">
+    <div class="text"> Oracle temple </div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<br>
+<p> <font face="Times New Roman"> The previous pictures were taken during my tours, if you're fond of watching amazing sunsets, stunning nature,
+ ancient castles and temples and having fun in the quietest and purest place ever ,<b> Book with us.<b> </p>
+<p><font face="Times New Roman"> The price of our tours costs 1500 LE per person including breakfast and lunch.</p>
+
+<h5> <font face="Times New Roman"> For more information about our tours contact us: </h5> 
+
+<h6> <font face="Times New Roman"> Our Facebook page <a  href="https://www.bing.com/ck/a?!&&p=a24e9dc9ad1ca91f85a6ee57f6f37bab138da0d5260ffcc2176d5ca08b5bb4f2JmltdHM9MTY1MjA1NDY2MSZpZ3VpZD03YWEwMDI2OS02ZjNhLTQ2MDEtYTc3Yy0yZWZlYWUwNjdkOTMmaW5zaWQ9NTEzOA&ptn=3&fclid=93b7bad3-cf2b-11ec-93c8-f6883e357b44&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLz9tc2Nsa2lkPTkzYjdiYWQzY2YyYjExZWM5M2M4ZjY4ODNlMzU3YjQ0&ntb=1" 
+class="fa fa-facebook"></a> 
+   Our Twitter page <a  href="https://www.bing.com/ck/a?!&&p=dc39d2409dff341dbd6e17c6a4af4fca3f7f612be88c0ad4de13a6ba8c736e82JmltdHM9MTY1MjA1NDc1MSZpZ3VpZD1jNWEzMzY4ZC1jNTVjLTQ1MmYtOTdiYy0xOTI1N2EyNGM4YzImaW5zaWQ9NTEzNA&ptn=3&fclid=c989eba4-cf2b-11ec-9d6e-2f9eae770d3f&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS8_bXNjbGtpZD1jOTg5ZWJhNGNmMmIxMWVjOWQ2ZTJmOWVhZTc3MGQzZg&ntb=1" 
+class="fa fa-twitter"></a> </h6>
+
+
+<br>
+
+
+
+</body>
+</html>

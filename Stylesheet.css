@@ -1,0 +1,268 @@
+ { margin:0;
+ padding:0;
+
+}
+  header { 
+   background-image: url(../yara3.jpg);
+   height: 100vh;
+   background-size : cover;
+   background-position:center;
+   position:relative;
+} 
+ul { 
+    float:left;
+    list-style-type : none;
+}
+ul li {
+      display: inline-block;
+      }
+ul li a { 
+         text-decoration : none;
+         color: black;
+         font-size:20px;
+         font-weight: bold;
+         padding : 5px 20px;
+        
+         
+}
+ul li a:hover {
+                background-color: white;
+                color: blue ;
+} 
+.title {
+        position : absolute;
+         top:5%;
+        left :30% 
+}
+
+.title h2 { 
+color: maroon;
+font-size:50px; 
+          }
+
+
+.title h1 { 
+color: black;
+font-size:35px; 
+          }
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.bg-img {
+ 
+   background-image: url(../yara3.jpg);
+
+
+  min-height: 0px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  top:-450;
+  margin: 100px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+
+/* Full-width input fields */
+  input[type=text], input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+/* Full-width input fields */
+  input[type=email], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+ h4 { 
+
+color: maroon;
+font-weight: bold;
+font-size:30px;
+font-style:normal;
+padding : 0px 10px;
+          }
+
+p { 
+   
+   font-size: 150%;
+   line-height:115%;
+  
+   
+ }
+
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 60px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+ h5 { 
+
+color: maroon;
+font-weight: bold;
+font-size:25px;
+font-style:normal;
+padding : 0px 10px;
+          }
+
+
+
+ h6 { 
+
+color: blue;
+font-weight: bold;
+font-size:17px;
+font-style:normal;
+padding : 0px 10px;
+          }
+
+
+
